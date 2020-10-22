@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
-using UnityEditor.Experimental.GraphView;
-using UnityEditor;
 
 public class Enemy : MonoBehaviour
 {

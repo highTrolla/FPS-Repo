@@ -19,15 +19,7 @@ public class Camera : MonoBehaviour
 
     public float damage;
 
-    //public SpriteRenderer m_SpriteRenderer;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         Cursor.lockState = CursorLockMode.Locked;
@@ -46,15 +38,6 @@ public class Camera : MonoBehaviour
         if (Input.GetKey(KeyCode.Mouse0))
         {
             Fire();
-        }
-
-        if (Input.GetKeyDown(KeyCode.Mouse0))
-        {
-           // m_SpriteRenderer.color = Color.red;
-        }
-        if (Input.GetKeyUp(KeyCode.Mouse0))
-        {
-          //  m_SpriteRenderer.color = Color.green;
         }
 
 
